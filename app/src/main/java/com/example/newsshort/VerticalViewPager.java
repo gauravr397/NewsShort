@@ -37,7 +37,7 @@ public class VerticalViewPager extends ViewPager {
                 page.setTranslationX(page.getWidth()*-position);
                 float scale = 0.75f +(1-0.75f)*(1-Math.abs(position));
                 page.setScaleX(scale);
-                page.setAlpha(scale);
+                page.setScaleY(scale);
 
             }else{
                 page.setAlpha(0);
@@ -57,14 +57,14 @@ public class VerticalViewPager extends ViewPager {
     }
 
     @Override
-    public boolean onInterceptHoverEvent(MotionEvent  ev) {
+    public boolean onInterceptTouchEvent(MotionEvent  ev) {
         boolean intercepted =super.onInterceptTouchEvent(swapXYCordinates(ev));
         swapXYCordinates(ev);
         return intercepted;
     }
 
     @Override
-    public boolean onInterceptTouchEvent(MotionEvent ev) {
-        return super.onInterceptTouchEvent(swapXYCordinates(ev));
+    public boolean onTouchEvent(MotionEvent ev) {
+        return super.onTouchEvent(swapXYCordinates(ev));
     }
 }
