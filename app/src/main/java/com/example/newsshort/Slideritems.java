@@ -2,13 +2,13 @@ package com.example.newsshort;
 
 public class Slideritems {
 
-    private int image;
+    private String image;
 
-    public Slideritems(int image) {
+    public Slideritems(String image) {
         this.image = image;
     }
 
-    public int getImage() {
+    public String getImage() {
         return image;
     }
 }
