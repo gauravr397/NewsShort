@@ -51,6 +51,7 @@ for i in all_news_data:
     print(result)
             
                             
-         
+#pip install pyrebase4
+
         
     
