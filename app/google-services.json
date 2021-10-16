@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424445319506",
+    "firebase_url": "https://newsshort-4fe60-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "newsshort-4fe60",
+    "storage_bucket": "newsshort-4fe60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424445319506:android:7dde9292752c1be943028b",
+        "android_client_info": {
+          "package_name": "com.example.newsshort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424445319506-l0vmoj2varsd260l0ntv4n6pudav08ld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZEMCzbRfeMTABcJ4bRVrHQyU5WlWnhsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424445319506-l0vmoj2varsd260l0ntv4n6pudav08ld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
