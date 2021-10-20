@@ -9,7 +9,7 @@
 ## Notes
 - IDE: Android Studio
 - Programming Language: Java
-- Third Party Libraries: Firebase, Glide,Python-Scripts
+- Third Party Libraries: Cardview,Firebase, Glide,Python-Scripts
 
 # Demo App
 
